@@ -99,12 +99,12 @@ export const EstimateModal: React.FC<EstimateModalProps> = ({
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-red-700 shrink-0" />
                 <span>
-                  <strong>Maya Bazaar Pyro Park</strong>, 20, Nainarkulam Road (Near Pothys Backgate), Tirunelveli Town
+                  <strong>No. 26, Mariyamman Kovil Street</strong>, N.R. Palayam, Ariyankuppam Post, Cuddalore T.K.
                 </span>
               </div>
               <div className="flex items-center gap-1.5 font-bold text-slate-900">
                 <Phone className="w-3.5 h-3.5 text-red-700" />
-                <span>Cell: 8903425983</span>
+                <span>Cell: 9600830112</span>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ export const EstimateModal: React.FC<EstimateModalProps> = ({
             </div>
             <div className="col-span-2 sm:col-span-1">
               <span className="text-slate-500 font-semibold block text-[10px] uppercase">Location / Town:</span>
-              <strong className="text-slate-900">{customerInfo.place || 'Tirunelveli'}</strong>
+              <strong className="text-slate-900">{customerInfo.place || 'Cuddalore'}</strong>
             </div>
           </div>
 
@@ -204,7 +204,7 @@ export const EstimateModal: React.FC<EstimateModalProps> = ({
                 </p>
               )}
               <p className="text-[10px] text-slate-500 leading-tight">
-                * Rates are valid for seasonal festival booking. Subject to stock availability. Direct showroom pickup available at Maya Bazaar Pyro Park, Tirunelveli.
+                * Rates are valid for seasonal festival booking. Subject to stock availability. Direct showroom pickup available at N.R. Palayam, Ariyankuppam, Cuddalore.
               </p>
             </div>
 
@@ -234,7 +234,7 @@ export const EstimateModal: React.FC<EstimateModalProps> = ({
           {/* Footer Note */}
           <div className="mt-6 pt-4 border-t border-slate-200 text-center text-xs text-slate-500">
             <p className="font-bold text-slate-800">
-              PREMA FIREWORKS • 20, Nainarkulam Road, Tirunelveli Town • Contact: 8903425983
+              PREMA FIREWORKS • Prop: D. Seetharaman • No. 26, Mariyamman Kovil Street, N.R. Palayam, Ariyankuppam Post, Cuddalore T.K. • Contact: 9600830112 / 9626200112
             </p>
             <p className="text-[11px] mt-0.5">
               Wishing You and Your Family a Happy & Prosperous Safe Diwali Celebration! 🪔✨

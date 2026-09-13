@@ -41,11 +41,11 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
   const generateWhatsAppMessage = () => {
     let msg = `🎇 *PREMA FIREWORKS - FIREWORKS ORDER ENQUIRY* 🎇\n`;
-    msg += `📍 *Showroom:* Maya Bazaar Pyro Park, Nainarkulam Road, Tirunelveli\n`;
+    msg += `📍 *Showroom:* No. 26, Mariyamman Kovil Street, N.R. Palayam, Ariyankuppam, Cuddalore\n`;
     msg += `--------------------------------------------\n`;
     msg += `👤 *Customer Name:* ${customerInfo.name || 'Valued Customer'}\n`;
     msg += `📞 *Phone Number:* ${customerInfo.phone || 'Not provided'}\n`;
-    msg += `🏡 *Delivery City / Address:* ${customerInfo.place || 'Tirunelveli'}\n`;
+    msg += `🏡 *Delivery City / Address:* ${customerInfo.place || 'Cuddalore'}\n`;
     if (customerInfo.notes) {
       msg += `📝 *Notes:* ${customerInfo.notes}\n`;
     }
@@ -88,7 +88,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
     } catch {}
 
     const encoded = generateWhatsAppMessage();
-    window.open(`https://wa.me/918903425983?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/919600830112?text=${encoded}`, '_blank');
   };
 
   return (
@@ -324,7 +324,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 />
                 <input
                   type="text"
-                  placeholder="City / Area (e.g. Tirunelveli, Palayamkottai)"
+                  placeholder="City / Area (e.g. Cuddalore, Ariyankuppam)"
                   value={customerInfo.place}
                   onChange={(e) => onCustomerInfoChange({ ...customerInfo, place: e.target.value })}
                   className="col-span-2 bg-white text-slate-800 rounded-xl p-2.5 border border-slate-200 focus:border-red-600 focus:outline-none text-xs shadow-2xs"
@@ -380,7 +380,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
             <p className="text-[10px] text-slate-500 text-center mt-2 flex items-center justify-center gap-1">
               <ShieldCheck className="w-3 h-3 text-emerald-600" />
-              <span>Direct Showroom Pickup & Safe Packing from Tirunelveli</span>
+              <span>Direct Showroom Pickup & Safe Packing from Ariyankuppam, Cuddalore</span>
             </p>
           </div>
         )}

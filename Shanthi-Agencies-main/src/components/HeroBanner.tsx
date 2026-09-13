@@ -37,7 +37,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
                 Prema Fireworks
               </h1>
               <p className="text-amber-400 font-bold text-sm sm:text-base mt-1">
-                பிரேமா ஃபயர்வொர்க்ஸ் - பட்டாசு எக்ஸ்க்ளூசிவ் ஷோரூம் • Tirunelveli
+                பிரேமா ஃபயர்வொர்க்ஸ் - பட்டாசு எக்ஸ்க்ளூசிவ் ஷோரூம் • Cuddalore
               </p>
 
               {/* Address Box matching exact image details */}
@@ -46,15 +46,15 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
                   <MapPin className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-extrabold text-white text-sm sm:text-base">
-                      Maya Bazaar Pyro Park
+                      No. 26, Mariyamman Kovil Street
                     </p>
                     <p className="text-slate-300">
-                      20, Nainarkulam Road <span className="text-amber-300 font-semibold">(Near Pothys Backgate)</span>, Tirunelveli Town
+                      N.R. Palayam <span className="text-amber-300 font-semibold">(On the way to Aatru)</span>, Ariyankuppam Post, Cuddalore
                     </p>
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2.5 pt-2 border-t border-slate-700 text-xs font-semibold">
                       <div className="flex items-center gap-1.5 text-amber-300">
                         <Phone className="w-3.5 h-3.5 text-amber-400" />
-                        <span>Direct Booking: <strong className="text-white text-sm">8903425983</strong></span>
+                        <span>Direct Booking: <strong className="text-white text-sm">9600830112</strong></span>
                       </div>
                       <span className="text-slate-600">•</span>
                       <div className="flex items-center gap-1 text-emerald-400">
@@ -94,14 +94,14 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
                 </button>
 
                 <a
-                  href="https://wa.me/918903425983?text=Hi%20Prema%20Fireworks%2C%20I%20want%20to%20place%20an%20order%20for%20Diwali%20crackers."
+                  href="https://wa.me/919600830112?text=Hi%20Prema%20Fireworks%2C%20I%20want%20to%20place%20an%20order%20for%20Diwali%20crackers."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-3 rounded-xl shadow flex items-center gap-2 transition-all text-xs sm:text-sm"
                   id="hero-whatsapp-direct-btn"
                 >
                   <MessageSquare className="w-4 h-4 text-emerald-100" />
-                  <span>WhatsApp (8903425983)</span>
+                  <span>WhatsApp (9600830112)</span>
                 </a>
 
                 <button

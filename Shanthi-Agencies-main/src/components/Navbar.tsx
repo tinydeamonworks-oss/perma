@@ -37,21 +37,21 @@ export const Navbar: React.FC<NavbarProps> = ({
               DIRECT FACTORY PRICE
             </span>
             <span className="font-medium text-[11px] sm:text-xs opacity-95">
-              Direct Sivakasi Factory Showroom Prices in Tirunelveli • Free Gift Box on orders above ₹3,000!
+              Direct Factory Prices from Cuddalore • Free Gift Box on orders above ₹3,000!
             </span>
           </div>
 
           <div className="flex items-center gap-4 text-[11px] sm:text-xs font-medium ml-auto">
             <div className="hidden sm:flex items-center gap-1 opacity-90">
               <MapPin className="w-3.5 h-3.5 text-amber-300" />
-              <span>Maya Bazaar Pyro Park, Tirunelveli</span>
+              <span>Mariyamman Kovil Street, N.R. Palayam, Cuddalore</span>
             </div>
             <a
-              href="tel:8903425983"
+              href="tel:9600830112"
               className="flex items-center gap-1 bg-white/15 hover:bg-white/25 px-2.5 py-0.5 rounded-lg border border-white/20 text-white font-bold transition-colors"
             >
               <Phone className="w-3 h-3 text-amber-300" />
-              <span>8903425983</span>
+              <span>9600830112</span>
             </a>
           </div>
         </div>
@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </span>
               </div>
               <p className="text-[10px] sm:text-xs font-semibold text-amber-200 mt-0.5 tracking-wide">
-                Light Up Your Celebrations • Tirunelveli Showroom
+                Light Up Your Celebrations • Cuddalore Showroom
               </p>
             </div>
           </a>
@@ -121,7 +121,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             {/* WhatsApp Quick Link */}
             <a
-              href="https://wa.me/918903425983?text=Hi%20Prema%20Fireworks%2C%20I%20would%20like%20to%20know%20more%20about%20fireworks%20and%20offers."
+              href="https://wa.me/919600830112?text=Hi%20Prema%20Fireworks%2C%20I%20would%20like%20to%20know%20more%20about%20fireworks%20and%20offers."
               target="_blank"
               rel="noopener noreferrer"
               className="hidden lg:flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-2 rounded-xl text-xs font-bold shadow transition-colors border border-emerald-400/40"

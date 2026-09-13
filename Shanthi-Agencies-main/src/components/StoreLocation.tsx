@@ -3,7 +3,7 @@ import { MapPin, Phone, MessageSquare, Clock, Navigation, CheckCircle2, ShieldCh
 
 export const StoreLocation: React.FC = () => {
   const mapAddressQuery = encodeURIComponent(
-    'Maya Bazaar Pyro Park, 20 Nainarkulam Road, Tirunelveli Town, Tamil Nadu'
+    'No. 26, Mariyamman Kovil Street, N.R. Palayam, Ariyankuppam Post, Cuddalore Taluk, Tamil Nadu - 605 110'
   );
 
   return (
@@ -16,10 +16,10 @@ export const StoreLocation: React.FC = () => {
             <span>Visit Our Exclusive Showroom</span>
           </div>
           <h2 className="text-2xl sm:text-4xl font-black text-slate-900 uppercase">
-            Prema Fireworks – Tirunelveli
+            Prema Fireworks – Cuddalore
           </h2>
           <p className="text-slate-600 text-sm sm:text-base mt-2">
-            Experience South Tamil Nadu’s most vibrant fireworks showroom at Maya Bazaar Pyro Park with over 150+ varieties directly from Sivakasi factories.
+            Experience Cuddalore's most trusted fireworks showroom at Mariyamman Kovil Street, N.R. Palayam with over 150+ varieties directly from Sivakasi factories.
           </p>
         </div>
 
@@ -46,13 +46,13 @@ export const StoreLocation: React.FC = () => {
                   <MapPin className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                   <div className="text-sm text-slate-700">
                     <p className="font-extrabold text-slate-900 text-base">
-                      Maya Bazaar Pyro Park
+                      No. 26, Mariyamman Kovil Street
                     </p>
                     <p className="mt-0.5 text-slate-600">
-                      20, Nainarkulam Road <strong className="text-red-700">(Near Pothys Backgate)</strong>
+                      N.R. Palayam <strong className="text-red-700">(On the way to Aatru)</strong>
                     </p>
                     <p className="font-semibold text-slate-800">
-                      Tirunelveli Town – 627 006
+                      Ariyankuppam Post, Cuddalore T.K. – 605 110
                     </p>
                   </div>
                 </div>
@@ -72,26 +72,37 @@ export const StoreLocation: React.FC = () => {
               {/* Contact numbers */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                 <a
-                  href="tel:8903425983"
+                  href="tel:9600830112"
                   className="flex items-center gap-3 p-3.5 rounded-xl bg-red-50 hover:bg-red-100/80 border border-red-100 text-red-950 transition-colors"
                 >
                   <Phone className="w-5 h-5 text-red-700" />
                   <div>
                     <span className="text-[10px] text-slate-500 uppercase font-bold block">Direct Hotline</span>
-                    <strong className="text-base text-slate-900 font-mono">8903425983</strong>
+                    <strong className="text-base text-slate-900 font-mono">9600830112</strong>
                   </div>
                 </a>
 
                 <a
-                  href="https://wa.me/918903425983?text=Hi%20Prema%20Fireworks%2C%20I%20want%20to%20visit%20your%20showroom%20in%20Tirunelveli."
+                  href="tel:9626200112"
+                  className="flex items-center gap-3 p-3.5 rounded-xl bg-red-50 hover:bg-red-100/80 border border-red-100 text-red-950 transition-colors"
+                >
+                  <Phone className="w-5 h-5 text-red-700" />
+                  <div>
+                    <span className="text-[10px] text-slate-500 uppercase font-bold block">Alternate Number</span>
+                    <strong className="text-base text-slate-900 font-mono">9626200112</strong>
+                  </div>
+                </a>
+
+                <a
+                  href="https://wa.me/919600830112?text=Hi%20Prema%20Fireworks%2C%20I%20want%20to%20visit%20your%20showroom%20in%20Ariyankuppam%2C%20Cuddalore."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3.5 rounded-xl bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-100 text-emerald-950 transition-colors"
+                  className="sm:col-span-2 flex items-center gap-3 p-3.5 rounded-xl bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-100 text-emerald-950 transition-colors"
                 >
                   <MessageSquare className="w-5 h-5 text-emerald-600" />
                   <div>
                     <span className="text-[10px] text-emerald-700 uppercase font-bold block">WhatsApp Inquiry</span>
-                    <strong className="text-base text-slate-900 font-mono">8903425983</strong>
+                    <strong className="text-base text-slate-900 font-mono">9600830112</strong>
                   </div>
                 </a>
               </div>
@@ -110,7 +121,7 @@ export const StoreLocation: React.FC = () => {
               </a>
 
               <a
-                href="tel:8903425983"
+                href="tel:9600830112"
                 className="bg-slate-100 hover:bg-slate-200 text-slate-800 px-4 py-3 rounded-xl border border-slate-200 text-xs sm:text-sm font-semibold flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
@@ -143,7 +154,7 @@ export const StoreLocation: React.FC = () => {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
-                  <span><strong>Convenient Town Location:</strong> Just near Pothys Backgate on Nainarkulam Road with easy parking.</span>
+                  <span><strong>Convenient Town Location:</strong> Located on N.R. Palayam - Ariyankuppam route, on the way to Aatru, with easy parking.</span>
                 </li>
               </ul>
             </div>
